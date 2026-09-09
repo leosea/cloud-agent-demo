@@ -1,6 +1,6 @@
 """Git 学习实验脚本。"""
 
-LESSON = "working-tree -> staging -> commit -> push -> pull request"
+LESSON = "step 2: this change is only in the working tree"
 REMOTE = "https://github.com/leosea/cloud-agent-demo"
 BRANCH_RULE = "do not commit directly on main"
 
