@@ -24,6 +24,8 @@ Working Tree    ----->  Staging Area  ----->  本地仓库  ----->  GitHub
 3. 开 Pull Request，再合并进 `main`
 4. 再用另一条分支练习「功能开发」流程
 
+日常习惯：**不要直接在 `main` 上改代码**。开一条新分支，改完后开 PR，审查后再合并。
+
 运行实验脚本：
 
 ```bash
