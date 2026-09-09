@@ -2,6 +2,7 @@
 
 LESSON = "working-tree -> staging -> commit -> push -> pull request"
 REMOTE = "https://github.com/leosea/cloud-agent-demo"
+BRANCH_RULE = "do not commit directly on main"
 
 
 def current_lesson() -> str:
@@ -14,10 +15,16 @@ def repo_remote() -> str:
     return REMOTE
 
 
+def branch_rule() -> str:
+    """返回日常开发时应遵守的分支规则。"""
+    return BRANCH_RULE
+
+
 def main() -> None:
     print("Git Lab")
     print(current_lesson())
     print(repo_remote())
+    print(branch_rule())
 
 
 if __name__ == "__main__":
