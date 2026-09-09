@@ -1,6 +1,6 @@
 """Git 学习实验脚本。"""
 
-LESSON = "conflict side A: changed on learn/conflict-demo"
+LESSON = "conflict resolved: chose a new lesson after side A and B disagreed"
 REMOTE = "https://github.com/leosea/cloud-agent-demo"
 BRANCH_RULE = "do not commit directly on main"
 
