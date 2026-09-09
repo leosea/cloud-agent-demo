@@ -29,3 +29,5 @@ Working Tree    ----->  Staging Area  ----->  本地仓库  ----->  GitHub
 ```bash
 python git_lab.py
 ```
+
+脚本会打印当前练习步骤，以及 GitHub 仓库地址。这第二次提交用来演示：同一条分支上可以有多个 commit，之后会一起出现在一个 Pull Request 里。
