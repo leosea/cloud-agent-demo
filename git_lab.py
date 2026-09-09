@@ -1,6 +1,10 @@
 """Git 学习实验脚本。"""
 
+<<<<<<< HEAD
 LESSON = "conflict side B: changed on learn/conflict-side-b"
+=======
+LESSON = "conflict side A: changed on learn/conflict-demo"
+>>>>>>> main
 REMOTE = "https://github.com/leosea/cloud-agent-demo"
 BRANCH_RULE = "do not commit directly on main"
 
